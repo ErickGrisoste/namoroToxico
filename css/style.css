@@ -1,0 +1,44 @@
+body{
+    background-color:cadetblue;
+}
+
+.bloco{
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 100px;
+}
+
+
+.sim{
+    margin-right: 100px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(14, 207, 14);
+    border-radius: 5px;
+    border: none; 
+}
+
+.sim:hover{
+    background-color: rgb(13, 170, 13);
+    cursor: pointer;
+}
+
+.nao{
+    transition: all 0.5s ease;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color:rgb(224, 11, 11);
+    border-radius: 5px;
+    border: none; 
+}
+
+.nao:hover{
+    background-color: rgb(165, 13, 13);
+    cursor: pointer;
+}
